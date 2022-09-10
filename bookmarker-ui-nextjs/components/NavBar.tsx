@@ -14,7 +14,9 @@ const NavBar = () => (
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link href="/bookmarks/add"><a className="nav-link">Add Bookmark</a></Link>
+                            <Link href="/bookmarks/add">
+                                <a className="nav-link">Add Bookmark</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
