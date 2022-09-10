@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class BookmarkMapper {
+/*
     public BookmarkDTO toDTO(Bookmark bookmark) {
         BookmarkDTO dto = new BookmarkDTO();
         dto.setId(bookmark.getId());
@@ -13,4 +14,5 @@ public class BookmarkMapper {
 
         return dto;
     }
+*/
 }
